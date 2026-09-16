@@ -13,7 +13,7 @@ A proposta é analisar a rotina, os compromissos e os objetivos do usuário para
 
 Conciliar estudos com trabalho, faculdade, compromissos pessoais e momentos de descanso pode ser um desafio.
 
-Muitas pessoas sabem que precisam estudar, mas têm dificuldade para:
+Muitas pessoas querem estudar, mas têm dificuldade para:
 
 * encontrar horários disponíveis;
 * organizar uma rotina de estudos;
