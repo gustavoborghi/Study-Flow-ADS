@@ -44,18 +44,18 @@ A partir dessas informações, o aplicativo poderá auxiliar na identificação 
 
 ## 🔎 Validação da ideia
 
-O projeto está atualmente em fase de **validação**.
+O projeto está atualmente em fase de **proposta de solução**.
 
 Estamos realizando pesquisas com potenciais usuários para compreender:
 
-* quem enfrenta esse problema;
+* como enfrentar esse problema;
 * quais são suas principais dificuldades;
 * como as pessoas organizam seus estudos atualmente;
-* quais ferramentas já utilizam;
+* quais funcionalidades são mais interessantes;
 * quais fatores prejudicam a rotina de estudos;
-* quais funcionalidades seriam realmente úteis.
 
-O objetivo dessa etapa é verificar se o problema é relevante e se existe uma necessidade real para uma solução como o Study Flow.
+
+O objetivo dessa etapa é planejar como uma solução como o Study Flow pode solucionar o problema.
 
 ---
 
@@ -156,7 +156,7 @@ A validação com usuários será utilizada para orientar as próximas decisões
 
 ## 📌 Status
 
-🟡 **Em desenvolvimento — Fase de validação**
+🟡 **Em desenvolvimento — Fase de proposta de solução**
 
 O projeto ainda está em construção. As funcionalidades, tecnologias e características apresentadas neste README podem ser modificadas conforme os resultados da pesquisa e do desenvolvimento.
 
