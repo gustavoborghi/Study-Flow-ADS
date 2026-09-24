@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Study Flow</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<div class="app">
+<aside class="sidebar">
+  <div class="brand"><div class="logo">S</div><div><b>Study Flow</b><small>Organize seu ritmo</small></div></div>
+  <nav>
+    <button class="nav active" data-page="home">⌂ <span>Início</span></button>
+    <button class="nav" data-page="agenda">□ <span>Agenda</span></button>
+    <button class="nav" data-page="subjects">▦ <span>Matérias</span></button>
+    <button class="nav" data-page="goals">◎ <span>Metas</span></button>
+    <button class="nav" data-page="progress">◒ <span>Progresso</span></button>
+  </nav>
+  <button class="nav settings" data-page="settings">⚙ <span>Configurações</span></button>
+  <div class="user"><div class="avatar">G</div><div><b>Gustavo</b><small>Estudante</small></div></div>
+</aside>
+<main>
+<header><button id="menu">☰</button><div><small>QUARTA-FEIRA, 23 DE SETEMBRO</small><h1 id="title">Bom dia, Gustavo!</h1></div><button id="bell">♧</button></header>
+
+<section id="home" class="page active">
+  <div class="hero"><div><label>SEU DIA</label><h2>Você tem <strong>2h30</strong> disponíveis hoje.</h2><p>Organizamos seus estudos considerando os horários que você tem livre.</p><button class="primary" data-page="agenda">Ver minha agenda →</button></div><div class="circle">✓</div></div>
+  <div class="heading"><div><h3>Próximo estudo</h3><p>Uma coisa de cada vez.</p></div><button class="link" data-page="agenda">Ver agenda</button></div>
+  <div class="next"><div class="subject python">Py</div><div class="grow"><b>Python</b><small>Estruturas de repetição · Hoje, 19:00</small></div><span>1h</span><button class="primary small" id="start">Começar</button></div>
+  <div class="cols">
+    <article class="card"><div class="heading"><div><h3>Esta semana</h3><p>Seu progresso</p></div><label>+18%</label></div><div class="big">4h30 <small>/ 6h</small></div><div class="bar"><i style="width:75%"></i></div><div class="bars"><i style="height:45%"></i><i style="height:70%"></i><i style="height:35%"></i><i style="height:80%"></i><i style="height:55%"></i><i style="height:25%"></i><i style="height:10%"></i></div><div class="days">S T Q Q S S D</div></article>
+    <article class="card"><div class="heading"><div><h3>Suas metas</h3><p>Continue avançando</p></div><button class="plus" data-page="goals">+</button></div>
+      <div class="goal"><i></i><div class="grow"><b>Estudar Python</b><small>3 de 4 sessões</small></div><strong>75%</strong></div>
+      <div class="goal"><i class="blue"></i><div class="grow"><b>Projeto Integrador</b><small>2 de 5 tarefas</small></div><strong>40%</strong></div>
+      <div class="goal"><i class="purple"></i><div class="grow"><b>Inglês</b><small>1 de 2 sessões</small></div><strong>50%</strong></div>
+    </article>
+  </div>
+</section>
+
+<section id="agenda" class="page"><div class="pagehead"><div><h2>Minha agenda</h2><p>Planeje sem deixar sua rotina de lado.</p></div><button class="primary" id="newSession">+ Nova sessão</button></div>
+<div class="card calendar"><div class="calnav">‹ <b>21 — 27 de setembro</b> ›</div><div class="caldays">SEG TER QUA QUI SEX SÁB DOM</div><div class="calnums">21 22 <b>23</b> 24 25 26 27</div></div>
+<div class="timeline"><time>18:00</time><article class="event green">Projeto Integrador <small>18:00 — 18:45 · Desenvolvimento</small><button>✓</button></article><time>19:00</time><article class="event blue">Python <small>19:00 — 20:00 · Estruturas de repetição</small><button>✓</button></article><time>20:00</time><article class="free">Horário livre</article><time>21:00</time><article class="event purple">Inglês <small>21:00 — 21:30 · Listening</small><button>✓</button></article></div></section>
+
+<section id="subjects" class="page"><div class="pagehead"><div><h2>Matérias</h2><p>Organize o que precisa ser estudado.</p></div><button class="primary" id="newSubject">+ Nova matéria</button></div><div class="subjectgrid">
+<div class="card subjectcard"><div class="subject python">Py</div><h3>Python</h3><p>4 sessões nesta semana</p><div class="bar"><i style="width:75%"></i></div><small>75% da meta</small></div>
+<div class="card subjectcard"><div class="subject blue">ES</div><h3>Engenharia de Software</h3><p>2 sessões nesta semana</p><div class="bar"><i style="width:45%"></i></div><small>45% da meta</small></div>
+<div class="card subjectcard"><div class="subject purple">ST</div><h3>Estatística</h3><p>1 sessão nesta semana</p><div class="bar"><i style="width:30%"></i></div><small>30% da meta</small></div></div></section>
+
+<section id="goals" class="page"><div class="pagehead"><div><h2>Metas</h2><p>Pequenos objetivos, progresso constante.</p></div><button class="primary" id="newGoal">+ Nova meta</button></div>
+<div class="card goalbig"><div class="ring">75%</div><div class="grow"><h3>Estudar Python</h3><p>4 sessões planejadas nesta semana</p><div class="bar"><i style="width:75%"></i></div></div><b>3/4</b></div>
+<div class="card goalbig"><div class="ring blueRing">40%</div><div class="grow"><h3>Projeto Integrador</h3><p>5 tarefas planejadas nesta semana</p><div class="bar"><i style="width:40%"></i></div></div><b>2/5</b></div></section>
+
+<section id="progress" class="page"><div class="pagehead"><div><h2>Seu progresso</h2><p>Veja como seus hábitos estão evoluindo.</p></div><select><option>Esta semana</option><option>Este mês</option></select></div><div class="stats"><div class="card"><small>Tempo estudado</small><b>4h30</b><small>+18% vs. semana anterior</small></div><div class="card"><small>Sessões concluídas</small><b>7</b><small>de 9 planejadas</small></div><div class="card"><small>Constância</small><b>78%</b><small>4 dias seguidos</small></div></div><div class="card chart"><h3>Horas estudadas</h3><div class="bars tall"><i style="height:42%"></i><i style="height:68%"></i><i style="height:52%"></i><i style="height:84%"></i><i style="height:61%"></i><i style="height:35%"></i><i style="height:18%"></i></div></div></section>
+
+<section id="settings" class="page"><div class="pagehead"><div><h2>Configurações</h2><p>Personalize sua experiência.</p></div></div><div class="card form"><label>Nome<input value="Gustavo"></label><label>Meta semanal<input value="6 horas"></label><label>Notificações<select><option>Ativadas</option><option>Desativadas</option></select></label><button class="primary" id="save">Salvar alterações</button></div></section>
+</main></div>
+
+<div class="modal" id="modal"><div class="modalbox"><button id="close">×</button><h2 id="mtitle">Nova sessão</h2><p id="mtext"></p><input id="minput" placeholder=""><button class="primary" id="confirm">Adicionar</button></div></div>
+<script src="js/app.js"></script></body></html>
