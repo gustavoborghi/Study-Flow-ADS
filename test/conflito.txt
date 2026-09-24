@@ -1,0 +1,2 @@
+Alteração feita na main.
+Alteração feita na branch feature/conflito.
