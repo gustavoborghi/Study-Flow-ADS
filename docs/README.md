@@ -44,18 +44,18 @@ A partir dessas informações, o aplicativo poderá auxiliar na identificação 
 
 ## 🔎 Validação da ideia
 
-O projeto está atualmente em fase de **validação**.
+O projeto está atualmente em fase de **proposta de solução**.
 
 Estamos realizando pesquisas com potenciais usuários para compreender:
 
-* quem enfrenta esse problema;
+* como enfrentar esse problema;
 * quais são suas principais dificuldades;
 * como as pessoas organizam seus estudos atualmente;
-* quais ferramentas já utilizam;
+* quais funcionalidades são mais interessantes;
 * quais fatores prejudicam a rotina de estudos;
-* quais funcionalidades seriam realmente úteis.
 
-O objetivo dessa etapa é verificar se o problema é relevante e se existe uma necessidade real para uma solução como o Study Flow.
+
+O objetivo dessa etapa é planejar como uma solução como o Study Flow pode solucionar o problema.
 
 ---
 
@@ -95,15 +95,23 @@ As funcionalidades abaixo fazem parte da proposta inicial e ainda estão sujeita
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Infraestrutura Técnica
 
 > As tecnologias serão definidas e atualizadas conforme o desenvolvimento do projeto.
 
 **Em desenvolvimento**
 
-* Python
-* Git
-* GitHub
+:iphone: Frontend / Mobile
+
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=plastic&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=plastic&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=plastic&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=plastic&logo=css3&logoColor=white)
+
+:desktop_computer: Backend
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white)
+
+:floppy_disk: Banco de dados
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=plastic&logo=mysql&logoColor=white)
 
 ---
 
@@ -156,7 +164,7 @@ A validação com usuários será utilizada para orientar as próximas decisões
 
 ## 📌 Status
 
-🟡 **Em desenvolvimento — Fase de validação**
+🟡 **Em desenvolvimento — Fase de proposta de solução**
 
 O projeto ainda está em construção. As funcionalidades, tecnologias e características apresentadas neste README podem ser modificadas conforme os resultados da pesquisa e do desenvolvimento.
 
