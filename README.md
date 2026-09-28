@@ -95,15 +95,23 @@ As funcionalidades abaixo fazem parte da proposta inicial e ainda estão sujeita
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Infraestrutura Técnica
 
 > As tecnologias serão definidas e atualizadas conforme o desenvolvimento do projeto.
 
 **Em desenvolvimento**
 
-* Python
-* Git
-* GitHub
+:iphone: Frontend / Mobile
+
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=plastic&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=plastic&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=plastic&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=plastic&logo=css3&logoColor=white)
+
+:desktop_computer: Backend
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white)
+
+:floppy_disk: Banco de dados
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=plastic&logo=mysql&logoColor=white)
 
 ---
 
