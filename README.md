@@ -1,175 +1,131 @@
-# Study-Flow-ADS
 # 📚 Study Flow
 
 > **Encontre o melhor tempo. Faça acontecer.**
 
-O **Study Flow** é um projeto desenvolvido para ajudar pessoas com rotinas corridas a encontrar e organizar os melhores horários para estudar.
+O **Study Flow** é um aplicativo mobile que ajuda pessoas com rotinas corridas a encontrar os melhores horários para estudar e a montar um cronograma de estudos realista.
 
-A proposta é analisar a rotina, os compromissos e os objetivos do usuário para auxiliar na criação de uma rotina de estudos mais realista e adaptável.
+🟡 **Status:** em desenvolvimento — fase de proposta de solução
 
 ---
 
 ## 🎯 Sobre o projeto
 
-Conciliar estudos com trabalho, faculdade, compromissos pessoais e momentos de descanso pode ser um desafio.
+Conciliar estudos com trabalho, faculdade e vida pessoal não é fácil. Muita gente quer estudar, mas tem dificuldade para:
 
-Muitas pessoas querem estudar, mas têm dificuldade para:
+* encontrar horários livres;
+* montar e manter uma rotina de estudos;
+* reorganizar o plano quando algo inesperado acontece;
+* acompanhar a própria evolução.
 
-* encontrar horários disponíveis;
-* organizar uma rotina de estudos;
-* manter o planejamento;
-* adaptar os estudos quando algo inesperado acontece;
-* acompanhar a evolução ao longo do tempo.
-
-O **Study Flow** surge como uma proposta de solução para esse problema, buscando tornar o planejamento dos estudos mais simples e compatível com a rotina de cada pessoa.
+O usuário informa sua rotina, seus compromissos e seus objetivos, e o Study Flow identifica os horários disponíveis e ajuda a organizar o plano de estudos, adaptando-o quando necessário.
 
 ---
 
-## 💡 Proposta
+## 🚀 Funcionalidades
 
-A ideia do Study Flow é permitir que o usuário informe sua rotina, disponibilidade e objetivos de estudo.
+As funcionalidades abaixo fazem parte da proposta inicial e ainda estão sujeitas à validação.
 
-A partir dessas informações, o aplicativo poderá auxiliar na identificação de horários adequados para estudar e na organização de um plano de estudos.
+**Núcleo (MVP, a versão mínima do app que já resolve o problema)**
 
-### Principais conceitos
-
-* 🗓️ **Planejamento personalizado**
-* ⏰ **Identificação de horários disponíveis**
-* 🔄 **Adaptação da rotina**
-* 📈 **Acompanhamento do progresso**
-* 🎯 **Organização por objetivos**
-* 📚 **Organização das matérias e tarefas**
-
----
-
-## 🔎 Validação da ideia
-
-O projeto está atualmente em fase de **proposta de solução**.
-
-Estamos realizando pesquisas com potenciais usuários para compreender:
-
-* como enfrentar esse problema;
-* quais são suas principais dificuldades;
-* como as pessoas organizam seus estudos atualmente;
-* quais funcionalidades são mais interessantes;
-* quais fatores prejudicam a rotina de estudos;
-
-
-O objetivo dessa etapa é planejar como uma solução como o Study Flow pode solucionar o problema.
-
----
-
-## 🖥️ Conceito das telas
-
-O projeto possui protótipos conceituais das principais telas do aplicativo, incluindo:
-
-1. **Onboarding** — apresentação do Study Flow;
-2. **Configuração da rotina** — cadastro de compromissos e disponibilidade;
-3. **Objetivos** — definição dos objetivos de estudo;
-4. **Dashboard** — visão geral da rotina;
-5. **Plano de estudos** — visualização dos horários planejados;
-6. **Sessão de estudo** — acompanhamento do momento de estudo;
-7. **Progresso** — acompanhamento da evolução;
-8. **Perfil** — gerenciamento das informações do usuário.
-
-> Os protótipos representam a visão atual do projeto e podem sofrer alterações durante o processo de validação.
-
----
-
-## 🚀 Funcionalidades planejadas
-
-As funcionalidades abaixo fazem parte da proposta inicial e ainda estão sujeitas à validação:
-
-* [ ] Cadastro de usuário
-* [ ] Configuração da rotina
-* [ ] Cadastro de compromissos
+* [ ] Cadastro e login
+* [ ] Configuração da rotina e dos compromissos
 * [ ] Definição de objetivos de estudo
-* [ ] Identificação de horários disponíveis
-* [ ] Geração de planejamento de estudos
-* [ ] Organização de matérias e tarefas
+* [ ] Cadastro de matérias e tarefas
+* [ ] Geração do plano de estudos a partir dos horários disponíveis
 * [ ] Lembretes de estudo
-* [ ] Registro das sessões
-* [ ] Adaptação do planejamento
+* [ ] Registro das sessões de estudo
 * [ ] Acompanhamento do progresso
-* [ ] Relatórios de estudos
+
+**Possíveis extensões**
+
+* [ ] Adaptação automática do plano quando a rotina muda
+* [ ] Relatórios de estudo
+* [ ] Integração com o Google Agenda (a avaliar)
 
 ---
 
-## 🛠️ Infraestrutura Técnica
+## 🖥️ Telas
 
-> As tecnologias serão definidas e atualizadas conforme o desenvolvimento do projeto.
+Os protótipos representam a visão atual do projeto e podem mudar durante a validação.
 
-**Em desenvolvimento**
+1. **Onboarding:** apresentação do app
+2. **Configuração da rotina:** compromissos e disponibilidade
+3. **Objetivos:** metas de estudo
+4. **Dashboard:** visão geral da rotina
+5. **Plano de estudos:** horários planejados
+6. **Sessão de estudo:** acompanhamento do momento de estudo
+7. **Progresso:** evolução ao longo do tempo
+8. **Perfil:** informações do usuário
 
-:iphone: Frontend / Mobile
+---
+
+## 🛠️ Tecnologias
+
+> As tecnologias podem ser ajustadas conforme o desenvolvimento do projeto.
+
+📱 **Frontend / Mobile (Android)**
 
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=plastic&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=plastic&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=plastic&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=plastic&logo=css3&logoColor=white)
 
-:desktop_computer: Backend
+🖥️ **Backend**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white)
 
-:floppy_disk: Banco de dados
+💾 **Banco de dados**
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=plastic&logo=mysql&logoColor=white)
 
 ---
 
-## 📁 Estrutura do projeto
+## 📁 Documentação
 
-A estrutura do repositório será organizada conforme o desenvolvimento do projeto.
+A pasta `docs/` reúne o material de planejamento do projeto.
 
-```text
-study-flow/
-│
-├── README.md
-│
-├── src/
-│   └── ...
-│
-├── docs/
-│   └── ...
-│
-└── tests/
-    └── ...
-```
+**Diagramas UML**
+
+* [Casos de uso](docs/Diagramas%20UML/diagrama-casos-de-uso.pdf) (PDF)
+* [Classes](docs/Diagramas%20UML/diagrama-classes.md)
+* [Atividades](docs/Diagramas%20UML/diagrama-atividades.md)
+* [Sequência: gerar plano de estudos](docs/Diagramas%20UML/diagrama-sequencia.md)
+
+Os diagramas em Markdown são escritos com [Mermaid](https://mermaid.js.org/) e aparecem desenhados direto no GitHub.
+
+**Protótipo**
+
+* Protótipo clicável do app, feito em HTML e disponível na pasta `docs/`.
 
 ---
 
 ## 👥 Público-alvo
 
-O Study Flow é pensado principalmente para pessoas que precisam conciliar estudos com uma rotina cheia, como:
-
-* estudantes universitários;
-* pessoas que trabalham e estudam;
-* estudantes de cursos técnicos;
-* pessoas que estudam para concursos;
-* estudantes que se preparam para vestibulares;
-* pessoas que realizam cursos online;
-* pessoas que estudam por conta própria.
+Pessoas que precisam conciliar os estudos com uma rotina cheia, como estudantes universitários e de cursos técnicos, quem trabalha e estuda, candidatos a concursos e vestibulares, e quem faz cursos online ou estuda por conta própria.
 
 ---
 
-## 📊 Objetivo do Projeto Integrador
+## 🔎 Validação
 
-O projeto faz parte do **Projeto Integrador 1** e tem como objetivo aplicar conhecimentos de desenvolvimento de software para investigar um problema real e propor uma solução tecnológica.
-
-Neste momento, o foco está em:
-
-**Problema → Validação → Proposta de solução → Desenvolvimento**
-
-A validação com usuários será utilizada para orientar as próximas decisões do projeto.
+Estamos pesquisando com potenciais usuários para entender como organizam seus estudos hoje, quais são suas maiores dificuldades e quais funcionalidades mais interessam. Os resultados vão orientar as próximas decisões do projeto.
 
 ---
 
-## 📌 Status
+## ▶️ Como rodar o projeto
 
-🟡 **Em desenvolvimento — Fase de proposta de solução**
-
-O projeto ainda está em construção. As funcionalidades, tecnologias e características apresentadas neste README podem ser modificadas conforme os resultados da pesquisa e do desenvolvimento.
+🚧 **Em breve.**
 
 ---
 
-## 📄 Licença
+## 👨‍💻 Integrantes
 
-Este projeto foi desenvolvido para fins acadêmicos no contexto do Projeto Integrador 1.
+* Erick
+* Fábio Jr.
+* Fernando Cunha
+* Gustavo Borghi
+* Yuri Palladino
+
+---
+
+## 📄 Contexto acadêmico e licença
+
+Projeto desenvolvido para a disciplina de **Projeto Integrador 1**, com o objetivo de investigar um problema real e propor uma solução tecnológica. O fluxo do trabalho é: **problema → validação → proposta de solução → desenvolvimento**.
+
+Uso exclusivamente acadêmico.
