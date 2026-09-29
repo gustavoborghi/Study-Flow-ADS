@@ -1,3 +1,5 @@
+# Diagrama de Classes
+
 ```mermaid
 classDiagram
 
@@ -5,22 +7,24 @@ classDiagram
         +id: int
         +nome: string
         +email: string
-        +senha: string
+        +senhaHash: string
     }
 
     class Rotina {
         +id: int
         +descricao: string
-        +horarioInicio: time
-        +horarioFim: time
+        +inicioDia: time
+        +fimDia: time
     }
 
     class Compromisso {
         +id: int
         +descricao: string
-        +data: date
+        +diaSemana: string
         +horarioInicio: time
         +horarioFim: time
+        +recorrente: boolean
+        +data: date
     }
 
     class Objetivo {
@@ -55,7 +59,8 @@ classDiagram
         +data: date
         +horarioInicio: time
         +horarioFim: time
-        +duracao: int
+        +status: string
+        +minutosEstudados: int
     }
 
     class Lembrete {
@@ -65,26 +70,22 @@ classDiagram
         +status: string
     }
 
-    class Progresso {
-        +id: int
-        +percentual: float
-        +horasEstudadas: float
-        +dataAtualizacao: date
-    }
-
+    %% Configuração
     Usuario "1" --> "1" Rotina
-    Usuario "1" --> "*" Compromisso
+    Rotina "1" --> "*" Compromisso
     Usuario "1" --> "*" Objetivo
-    Usuario "1" --> "*" Materia
-    Usuario "1" --> "*" Lembrete
-    Usuario "1" --> "1" Progresso
 
-    Materia "1" --> "*" Tarefa
+    %% Conteúdo
     Objetivo "1" --> "*" Materia
+    Materia "1" --> "*" Tarefa
 
-    Usuario "1" --> "*" PlanoEstudos
+    %% Planejamento e execução
+    Objetivo "1" --> "*" PlanoEstudos
     PlanoEstudos "1" --> "*" SessaoEstudo
     SessaoEstudo "*" --> "1" Materia
-    SessaoEstudo "*" --> "1" Tarefa
+    SessaoEstudo "*" --> "0..1" Tarefa
 
-    Rotina "1" --> "*" Compromisso
+    %% Lembretes
+    Usuario "1" --> "*" Lembrete
+    Lembrete "*" --> "0..1" SessaoEstudo
+```
