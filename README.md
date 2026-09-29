@@ -1,3 +1,4 @@
+![Logo Study Flow](docs/Logo%20StudyFlow.jpeg) 
 # 📚 Study Flow
 
 > **Encontre o melhor tempo. Faça acontecer.**
@@ -46,16 +47,14 @@ As funcionalidades abaixo fazem parte da proposta inicial e ainda estão sujeita
 
 ## 🖥️ Telas
 
-Os protótipos representam a visão atual do projeto e podem mudar durante a validação.
+O [protótipo](docs/prototipos/study-flow-frontend) reúne as principais telas do app e pode mudar durante a validação.
 
-1. **Onboarding:** apresentação do app
-2. **Configuração da rotina:** compromissos e disponibilidade
-3. **Objetivos:** metas de estudo
-4. **Dashboard:** visão geral da rotina
-5. **Plano de estudos:** horários planejados
-6. **Sessão de estudo:** acompanhamento do momento de estudo
-7. **Progresso:** evolução ao longo do tempo
-8. **Perfil:** informações do usuário
+* **Dashboard:** visão geral da rotina
+* **Agenda:** horários e plano de estudos
+* **Matérias:** matérias e tarefas
+* **Metas:** objetivos de estudo
+* **Progresso:** evolução ao longo do tempo
+* **Configurações:** ajustes do app e da rotina
 
 ---
 
@@ -83,16 +82,16 @@ A pasta `docs/` reúne o material de planejamento do projeto.
 
 **Diagramas UML**
 
-* [Casos de uso](docs/Diagramas%20UML/diagrama-casos-de-uso.pdf) (PDF)
-* [Classes](docs/Diagramas%20UML/diagrama-classes.md)
-* [Atividades](docs/Diagramas%20UML/diagrama-atividades.md)
-* [Sequência: gerar plano de estudos](docs/Diagramas%20UML/diagrama-sequencia.md)
+* [Casos de uso](docs/Diagramas%20UML/Diagrama%20de%20Caso%20de%20Uso.pdf) (PDF)
+* [Classes](docs/Diagramas%20UML/Diagrama%20de%20Classes.md)
+* [Atividades](docs/Diagramas%20UML/Diagrama%20de%20Atividades.md)
+* [Sequência: gerar plano de estudos](docs/Diagramas%20UML/Diagrama%20de%20Sequ%C3%AAncia.md)
 
 Os diagramas em Markdown são escritos com [Mermaid](https://mermaid.js.org/) e aparecem desenhados direto no GitHub.
 
 **Protótipo**
 
-* Protótipo clicável do app, feito em HTML e disponível na pasta `docs/`.
+* [Protótipo clicável (HTML)](docs/prototipos/study-flow-frontend): para abrir, baixe a pasta e execute o `index.html` no navegador, sem instalar nada.
 
 ---
 
