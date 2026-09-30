@@ -47,7 +47,7 @@ As funcionalidades abaixo fazem parte da proposta inicial e ainda estão sujeita
 
 ## 🖥️ Telas
 
-O [protótipo](docs/prototipos/study-flow-frontend) reúne as principais telas do app e pode mudar durante a validação.
+O [protótipo](https://gustavoborghi.github.io/Study-Flow-ADS/docs/prototipos/study-flow-frontend/) reúne as principais telas do app e pode mudar durante a validação.
 
 * **Onboarding:** apresentação do app
 * **Dashboard:** visão geral da rotina
@@ -88,11 +88,11 @@ O [protótipo](docs/prototipos/study-flow-frontend) reúne as principais telas d
 
 🖥️ **Backend**
 
-![Python](https://img.shields.io/badge/Python-FFD43B?style=plastic&logo=python&logoColor=black)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=plastic&logo=python&logoColor=3776AB)
 
 💾 **Banco de dados**
 
-![MySQL](https://img.shields.io/badge/MySQL-F29111?style=plastic&logo=mysql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-F29111?style=plastic&logo=mysql&logoColor=black)
 
 🧰 **Ferramentas**
 
@@ -128,7 +128,7 @@ Os diagramas em Markdown são escritos com [Mermaid](https://mermaid.js.org/) e 
 
 ## 🗂️ Modelo de dados
 
-A [planilha com dados fictícios](https://docs.google.com/spreadsheets/d/1Gd6mVYKqyyuQG8Na9SuRHLRsNzLCZeUP/edit?usp=sharing&ouid=101436574695752963454&rtpof=true&sd=true)) mostra como o banco de dados será organizado, com uma aba para cada tabela do [diagrama de classes](docs/Diagramas%20UML/Diagrama%20de%20Classes.md).
+A [planilha com dados fictícios](https://docs.google.com/spreadsheets/d/1Gd6mVYKqyyuQG8Na9SuRHLRsNzLCZeUP/edit?usp=sharing&ouid=101436574695752963454&rtpof=true&sd=true) mostra como o banco de dados será organizado, com uma aba para cada tabela do [diagrama de classes](docs/Diagramas%20UML/Diagrama%20de%20Classes.md).
 
 **Protótipo**
 
@@ -162,7 +162,7 @@ Estamos pesquisando com potenciais usuários para entender como organizam seus e
 
 | Integrante | GitHub |
 |---|---|
-| Erick | (https://github.com/ErickAlves38?fbclid=PAVERFWAUqS1ZleHRuA2FlbQIxMABwZG9mAmZkaWQWUPa3jlJEW-etslsoBp_72wav-8wh13NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpz0MZrlZfw1YsXBnMfPuJLqhGCaFNN73b89nJZpkc4RMPKGe26bvagimGy2e_aem_2BnULyzfAr4V0YIe-j2jvQ) |
+| Erick | [@ErickAlves38](https://github.com/ErickAlves38) |
 | Fábio Jr. | em breve |
 | Fernando Cunha | [@cunhafernando1403](https://github.com/cunhafernando1403) |
 | Gustavo Borghi | [@gustavoborghi](https://github.com/gustavoborghi) |
