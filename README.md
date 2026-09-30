@@ -88,24 +88,28 @@ O [protótipo](docs/prototipos/study-flow-frontend) reúne as principais telas d
 
 🖥️ **Backend**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=plastic&logo=python&logoColor=black)
 
 💾 **Banco de dados**
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=plastic&logo=mysql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-F29111?style=plastic&logo=mysql&logoColor=white)
+
+🧰 **Ferramentas**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=plastic&logo=github&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=plastic&logo=githubpages&logoColor=white) ![Mermaid](https://img.shields.io/badge/Mermaid-FF3670?style=plastic&logo=mermaid&logoColor=white) ![Google Calendar API](https://img.shields.io/badge/Google_Calendar_API-4285F4?style=plastic&logo=googlecalendar&logoColor=white)
 
 ---
 
 ## 🔄 Metodologia
 
-O projeto segue uma abordagem **ágil, combinando Scrum e Kanban**:
+O projeto segue uma abordagem **ágil, baseada em Kanban**:
 
-* entregas em **ciclos curtos (sprints)**, cada um terminando com uma parte funcionando;
 * **quadro Kanban** no GitHub Projects, com as colunas A fazer, Em andamento, Em revisão e Concluído;
-* **reuniões semanais** do time para alinhar o que foi feito e o que vem a seguir;
+* **tarefas pequenas**, cada uma com um responsável, para entregar uma parte funcionando de cada vez;
+* **alinhamento semanal** do time sobre o que foi feito, o que vem a seguir e o que está travado;
 * código versionado com **branches e pull requests**.
 
-Escolhemos uma metodologia ágil porque os requisitos ainda podem mudar conforme a validação com usuários, e ciclos curtos permitem ajustar o rumo sem refazer tudo.
+Escolhemos uma abordagem ágil porque já sabemos o que o app deve fazer, mas ainda estamos definindo como construí-lo. Entregas pequenas permitem aprender no caminho e ajustar sem refazer tudo.
 
 ---
 
@@ -122,9 +126,17 @@ A pasta `docs/` reúne o material de planejamento do projeto.
 
 Os diagramas em Markdown são escritos com [Mermaid](https://mermaid.js.org/) e aparecem desenhados direto no GitHub.
 
+## 🗂️ Modelo de dados
+
+A [planilha com dados fictícios](https://docs.google.com/spreadsheets/d/1Gd6mVYKqyyuQG8Na9SuRHLRsNzLCZeUP/edit?usp=sharing&ouid=101436574695752963454&rtpof=true&sd=true)) mostra como o banco de dados será organizado, com uma aba para cada tabela do [diagrama de classes](docs/Diagramas%20UML/Diagrama%20de%20Classes.md).
+
 **Protótipo**
 
-* [Protótipo clicável (HTML)](docs/prototipos/study-flow-frontend): para abrir, baixe a pasta e execute o `index.html` no navegador, sem instalar nada.
+O protótipo de telas funciona no **computador e no celular**, direto no navegador, **sem baixar nem instalar nada**:
+
+👉 **[Abrir o protótipo](https://gustavoborghi.github.io/Study-Flow-ADS/docs/prototipos/study-flow-frontend/)** (hospedado no GitHub Pages)
+
+Se preferir, também é possível [baixar a pasta do protótipo](https://github.com/gustavoborghi/Study-Flow-ADS/tree/main/docs/prototipos/study-flow-frontend) e abrir o arquivo `index.html` no navegador.
 
 ---
 
@@ -148,11 +160,13 @@ Estamos pesquisando com potenciais usuários para entender como organizam seus e
 
 ## 👨‍💻 Integrantes
 
-* Erick
-* Fábio Jr.
-* Fernando Cunha
-* Gustavo Borghi
-* Yuri Palladino
+| Integrante | GitHub |
+|---|---|
+| Erick | (https://github.com/ErickAlves38?fbclid=PAVERFWAUqS1ZleHRuA2FlbQIxMABwZG9mAmZkaWQWUPa3jlJEW-etslsoBp_72wav-8wh13NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpz0MZrlZfw1YsXBnMfPuJLqhGCaFNN73b89nJZpkc4RMPKGe26bvagimGy2e_aem_2BnULyzfAr4V0YIe-j2jvQ) |
+| Fábio Jr. | em breve |
+| Fernando Cunha | [@cunhafernando1403](https://github.com/cunhafernando1403) |
+| Gustavo Borghi | [@gustavoborghi](https://github.com/gustavoborghi) |
+| Yuri Palladino | [@Pall4dino](https://github.com/Pall4dino) |
 
 ---
 
