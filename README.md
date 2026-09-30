@@ -29,7 +29,7 @@ As funcionalidades abaixo fazem parte da proposta inicial e ainda estão sujeita
 **Núcleo (MVP, a versão mínima do app que já resolve o problema)**
 
 * [ ] Cadastro e login
-* [ ] Configuração da rotina e dos compromissos
+* [ ] Configuração manual da rotina e dos compromissos
 * [ ] Definição de objetivos de estudo
 * [ ] Cadastro de matérias e tarefas
 * [ ] Geração do plano de estudos a partir dos horários disponíveis
@@ -37,11 +37,11 @@ As funcionalidades abaixo fazem parte da proposta inicial e ainda estão sujeita
 * [ ] Registro das sessões de estudo
 * [ ] Acompanhamento do progresso
 
-**Possíveis extensões**
+**Após o núcleo**
 
+* [ ] Integração com o Google Agenda: ao cadastrar a rotina, o usuário poderá importá-la automaticamente ou continuar configurando manualmente
 * [ ] Adaptação automática do plano quando a rotina muda
 * [ ] Relatórios de estudo
-* [ ] Integração com o Google Agenda (a avaliar)
 
 ---
 
@@ -56,6 +56,25 @@ O [protótipo](docs/prototipos/study-flow-frontend) reúne as principais telas d
 * **Metas:** objetivos de estudo
 * **Progresso:** evolução ao longo do tempo
 * **Configurações:** ajustes do app, da rotina e perfil
+
+---
+
+## 🗓️ Roadmap do MVP
+
+* **Milestone 1: Planejamento e design** 🔄
+  * Pesquisa com usuários, diagramas UML, protótipo clicável, dados fictícios em planilha e definição da metodologia.
+* **Milestone 2: Base técnica**
+  * Estrutura do app em React Native, API em Python, modelagem do MySQL a partir do diagrama de classes, cadastro e login.
+* **Milestone 3: Rotina, objetivos e matérias**
+  * Telas e API para rotina e compromissos, objetivos, matérias e tarefas.
+* **Milestone 4: Plano de estudos**
+  * Cálculo dos horários livres, geração do plano de estudos e visualização na Agenda.
+* **Milestone 5: Acompanhamento**
+  * Registro das sessões, cálculo do progresso e lembretes de estudo.
+* **Milestone 6: Integração com o Google Agenda**
+  * Importação da rotina pela API do Google, mantendo a configuração manual como alternativa.
+* **Milestone 7: Testes e entrega**
+  * Testes com usuários, correção de bugs, ajustes de interface e apresentação final.
 
 ---
 
@@ -74,6 +93,19 @@ O [protótipo](docs/prototipos/study-flow-frontend) reúne as principais telas d
 💾 **Banco de dados**
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=plastic&logo=mysql&logoColor=white)
+
+---
+
+## 🔄 Metodologia
+
+O projeto segue uma abordagem **ágil, combinando Scrum e Kanban**:
+
+* entregas em **ciclos curtos (sprints)**, cada um terminando com uma parte funcionando;
+* **quadro Kanban** no GitHub Projects, com as colunas A fazer, Em andamento, Em revisão e Concluído;
+* **reuniões semanais** do time para alinhar o que foi feito e o que vem a seguir;
+* código versionado com **branches e pull requests**.
+
+Escolhemos uma metodologia ágil porque os requisitos ainda podem mudar conforme a validação com usuários, e ciclos curtos permitem ajustar o rumo sem refazer tudo.
 
 ---
 
