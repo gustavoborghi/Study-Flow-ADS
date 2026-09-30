@@ -49,12 +49,13 @@ As funcionalidades abaixo fazem parte da proposta inicial e ainda estão sujeita
 
 O [protótipo](docs/prototipos/study-flow-frontend) reúne as principais telas do app e pode mudar durante a validação.
 
+* **Onboarding:** apresentação do app
 * **Dashboard:** visão geral da rotina
 * **Agenda:** horários e plano de estudos
 * **Matérias:** matérias e tarefas
 * **Metas:** objetivos de estudo
 * **Progresso:** evolução ao longo do tempo
-* **Configurações:** ajustes do app e da rotina
+* **Configurações:** ajustes do app, da rotina e perfil
 
 ---
 
