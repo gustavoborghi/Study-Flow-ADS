@@ -162,7 +162,6 @@ Estamos pesquisando com potenciais usuários para entender como organizam seus e
 
 | Integrante | GitHub |
 |---|---|
-| Erick | [@ErickAlves38](https://github.com/ErickAlves38) |
 | Fábio Jr. | [@fjunior10](https://github.com/fjunior10) |
 | Fernando Cunha | [@cunhafernando1403](https://github.com/cunhafernando1403) |
 | Gustavo Borghi | [@gustavoborghi](https://github.com/gustavoborghi) |
